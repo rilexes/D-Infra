@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+ /* Estilos personalizados para a tabela */
+ .table-container {
+    overflow-x: auto; /* Adicionando rolagem horizontal para a tabela */
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table th,
+.table td {
+    padding: 12px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+.table-sm th,
+.table-sm td {
+    padding: 6px;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 2px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+/* Estilização dos botões de ação */
+.action-buttons .btn {
+    margin-right: 5px;
+}
+.container {
+    margin-top: 50px;
+}
